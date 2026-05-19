@@ -6,6 +6,11 @@
 </p>
 
 <p align="center">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/AjaySoni-Dev/AIDSLab-100?style=social">
+  <img alt="GitHub forks" src="https://img.shields.io/github/forks/AjaySoni-Dev/AIDSLab-100?style=social">
+</p>
+
+<p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-project%20lab-blue">
   <img alt="Projects" src="https://img.shields.io/badge/projects-100-purple">
   <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-3776AB">
