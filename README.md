@@ -1,4 +1,4 @@
-<h1 align="center">AIDSLab-100</h1>
+<h1 align="center">AI-DS-100</h1>
 
 <p align="center">
   <strong>100 Applied AI & Data Science Projects</strong><br>
