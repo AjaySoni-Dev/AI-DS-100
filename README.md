@@ -1,8 +1,8 @@
 <h1 align="center">AI-DS-100</h1>
 
 <p align="center">
-  <strong>100 Applied AI & Data Science Projects</strong><br>
-  100 applied AI and data science projects for real-world learning and portfolio development.
+  <strong>Applied AI & Data Science Project Lab</strong><br>
+  A structured collection of notebook-based projects for machine learning, analytics, and portfolio practice.
 </p>
 
 <p align="center">
@@ -12,129 +12,127 @@
 
 <p align="center">
   <img alt="Status" src="https://img.shields.io/badge/status-project%20lab-blue">
-  <img alt="Projects" src="https://img.shields.io/badge/projects-100-purple">
-  <img alt="Python" src="https://img.shields.io/badge/python-3.10%2B-3776AB">
-  <img alt="Focus" src="https://img.shields.io/badge/focus-AI%20%2B%20Data%20Science-success">
+  <img alt="Projects" src="https://img.shields.io/badge/current%20projects-26-purple">
+  <img alt="Levels" src="https://img.shields.io/badge/levels-basic%20%7C%20intermediate%20%7C%20advanced-success">
+  <img alt="Python" src="https://img.shields.io/badge/python-3.x-3776AB">
+  <img alt="Notebooks" src="https://img.shields.io/badge/notebooks-Jupyter-orange">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
 </p>
 
 <p align="center">
   <a href="#overview">Overview</a> ·
-  <a href="#project-standards">Standards</a> ·
-  <a href="#project-areas">Areas</a> ·
-  <a href="#repository-structure">Structure</a> ·
-  <a href="#quick-start">Quick Start</a>
+  <a href="#what-this-repo-contains">Contents</a> ·
+  <a href="#project-catalog">Projects</a> ·
+  <a href="#how-to-use">How to Use</a> ·
+  <a href="#learning-flow">Learning Flow</a>
 </p>
 
 ---
 
 ## Overview
 
-**AI-DS-100** is a structured collection of applied Artificial Intelligence, Machine Learning, and Data Science projects.
+**AI-DS-100** is an applied AI and Data Science project repository. The uploaded version currently contains **26 implemented project bundles** arranged into three levels: **Basic**, **Intermediate**, and **Advanced**.
 
-The goal is simple:
+Each project is designed for practical learning and portfolio building. The bundles generally include a notebook, dataset, exported report/PDF, and a short project description.
 
 ```text
-Learn a concept
-        ↓
-Build a working project
-        ↓
-Evaluate the result
-        ↓
-Document it clearly
-        ↓
-Make it portfolio-ready
+Dataset → Cleaning → EDA → Model training → Evaluation → Report/export
 ```
 
-This repository is not meant to be a random dump of notebooks. Each project should have a clear problem statement, clean implementation, result summary, and enough documentation for someone else to understand or reproduce it.
+The repository name points toward a larger 100-project collection, while the current implemented set contains 26 project bundles.
 
 ---
 
-## What This Repository Is
+## What This Repo Contains
 
-AI-DS-100 is for:
-
-- applied AI and data science practice
-- portfolio-building projects
-- beginner-to-advanced implementation work
-- machine learning experiments with clear outputs
-- real-world datasets and practical problem solving
-- improving coding, analysis, modeling, and documentation skills
-
-It is not:
-
-- a production AI framework
-- a research benchmark
-- a certified course
-- a collection of copy-pasted notebooks
-- a place for incomplete files without explanation
-
----
-
-## Project Standards
-
-Each project should include only what is necessary.
-
-| Requirement | Expected Content |
+| Repository Part | What it provides |
 |---|---|
-| Problem statement | What the project solves |
-| Dataset/source | Dataset name, source, or generation method |
-| Approach | Main techniques used |
-| Implementation | Notebook, script, or app code |
-| Results | Metrics, charts, predictions, or findings |
-| Limitations | What the project does not solve |
-| README | Short explanation for that project folder |
-
-Minimum acceptable project structure:
-
-```text
-project-name/
-├── README.md
-├── notebook.ipynb
-├── src/                 # optional
-├── data/                # ignored if large/private
-├── outputs/             # charts, reports, sample results
-└── requirements.txt     # optional
-```
+| `DS-Project-Basic/` | Beginner-friendly regression/classification projects with simple datasets and baseline ML workflows. |
+| `DS-Project-Intermediate/` | More complete prediction projects covering churn, health risk, booking, loan, and sensor-style datasets. |
+| `DS-Project-Advanced/` | Larger or more involved projects such as car pricing, crime analysis, crop yield, traffic flow, and fraud prediction. |
+| Project zip bundles | Each project is packaged separately so it can be downloaded, extracted, and studied independently. |
+| Level README files | Each difficulty folder contains its own short level-specific README. |
+| MIT License | Allows reuse and modification under the license terms. |
 
 ---
 
-## Project Areas
+## Project Catalog
 
-| Area | Examples |
+### Basic Projects
+
+| Project | Area | Dataset Focus |
+|---|---|---|
+| Delhi House Price Prediction | Regression | MagicBricks housing data |
+| Medical Cost Prediction | Regression | Insurance charges data |
+| Pima Indians Diabetes Prediction | Classification | Clinical diabetes data |
+| Red Wine Quality | Classification / Regression | Wine physicochemical data |
+| SFR Analysis | Analysis / Prediction | Launch SFR records |
+| Salary Prediction | Regression | Salary and profile data |
+| Sleep Disorder Prediction | Classification | Sleep and lifestyle data |
+| Titanic Survival Prediction | Classification | Titanic passenger data |
+
+### Intermediate Projects
+
+| Project | Area | Dataset Focus |
+|---|---|---|
+| Breast Cancer Prediction | Classification | Tumor feature data |
+| Cardiovascular Disease Prediction | Classification | Cardio/health indicator data |
+| Customer Churn Prediction | Classification | Bank/customer churn data |
+| Diamond Price Prediction | Regression | Diamond attributes data |
+| E-Commerce Product Delivery Prediction | Classification | Order delivery data |
+| Heart Stroke Prediction | Classification | Stroke health data |
+| Hotel Reservations Cancellation Prediction | Classification | Hotel booking data |
+| House Price Prediction | Regression | Home sales data |
+| Loan Approval Prediction | Classification | Applicant/credit data |
+| Osteoporosis Risk Prediction | Classification | Health risk data |
+| Room Occupancy Detection | Classification | Sensor readings |
+| Telecom Customer Churn Prediction | Classification | Telco customer data |
+
+### Advanced Projects
+
+| Project | Area | Dataset Focus |
+|---|---|---|
+| Belarus Car Price Prediction | Regression | Used car listings |
+| Calgary Crime Data Analysis and Neural Network Model | Analysis / Prediction | Crime statistics |
+| Crop Yield Prediction | Regression | Crop-yield spreadsheet |
+| Indian Used Car Price Prediction | Regression | Indian used-car listings |
+| Traffic-Flow-Prediction | Classification / Forecasting | Traffic count data |
+| Warranty Claims Fraud Prediction | Classification | Warranty claim data |
+
+---
+
+## What Is Inside Each Project Bundle
+
+Most extracted project folders follow this practical structure:
+
+| File Type | Purpose |
 |---|---|
-| Python for Data Science | cleaning, analysis, automation |
-| Exploratory Data Analysis | reports, charts, insights |
-| Machine Learning | regression, classification, clustering |
-| Deep Learning | neural networks, image/text models |
-| Computer Vision | image classification, detection, embeddings |
-| Natural Language Processing | text classification, summarization, sentiment |
-| Time Series | forecasting and trend analysis |
-| Recommendation Systems | ranking and similarity-based systems |
-| MLOps Basics | model saving, APIs, deployment demos |
-| End-to-End AI Apps | practical apps using trained models |
+| `.ipynb` | Main Jupyter notebook containing code, analysis, model training, and evaluation. |
+| `.csv` / `.xlsx` | Dataset used by the notebook. |
+| `.pdf` | Exported notebook/report for quick review. |
+| `description.md` | Short explanation of the problem, workflow, and learning value. |
+
+The projects mainly use familiar beginner-to-intermediate Python data science tools such as `pandas`, `numpy`, `matplotlib`, and `scikit-learn`.
 
 ---
 
-## Project Index
+## Learning Flow
 
-Update this table as projects are added.
-
-| # | Project | Area | Status |
-|---:|---|---|---:|
-| 001 | Coming soon | Data Science | 🚧 Planned |
-| 002 | Coming soon | Machine Learning | 🚧 Planned |
-| 003 | Coming soon | Computer Vision | 🚧 Planned |
-| 004 | Coming soon | NLP | 🚧 Planned |
-| 005 | Coming soon | AI App | 🚧 Planned |
-
-Status meaning:
+Most notebooks follow a similar learning pattern:
 
 ```text
-✅ Complete     Project is implemented and documented
-🧪 Experimental Working but still needs improvement
-🚧 Planned      Not implemented yet
+1. Import libraries
+2. Load the dataset
+3. Inspect rows, columns, missing values, and basic statistics
+4. Clean or encode the data
+5. Explore patterns with simple visualizations
+6. Split data into train/test sets
+7. Train a baseline model
+8. Evaluate with suitable metrics
+9. Summarize results in a report/export
 ```
+
+This consistency makes the repository useful for beginners who want to repeat the same machine-learning workflow across different real-world domains.
 
 ---
 
@@ -142,132 +140,56 @@ Status meaning:
 
 ```text
 AI-DS-100/
-├── projects/            # Main project folders
-├── datasets/            # Dataset notes or small sample datasets
-├── notebooks/           # Standalone learning notebooks if needed
-├── docs/                # General notes and references
-├── templates/           # Project README/template files
-├── .gitignore
+├── DS-Project-Basic/
+│   ├── README_BASIC.md
+│   └── 8 project zip bundles
+├── DS-Project-Intermediate/
+│   ├── README_INTERMEDIATE.md
+│   └── 12 project zip bundles
+├── DS-Project-Advanced/
+│   ├── README_ADVANCED.md
+│   └── 6 project zip bundles
 ├── LICENSE
-├── README.md
-└── requirements.txt
-```
-
-Recommended project naming:
-
-```text
-001-house-price-prediction
-002-customer-churn-analysis
-003-spam-email-classifier
-004-image-classification-cnn
-005-resume-screening-nlp
+└── README.md
 ```
 
 ---
 
-## Quick Start
+## How to Use
 
-### 1. Clone the repository
+1. Open the difficulty folder that matches your current level.
+2. Extract the project zip you want to study.
+3. Open the notebook in Jupyter Notebook, JupyterLab, VS Code, Google Colab, or Kaggle.
+4. Install common dependencies if required:
 
 ```bash
-git clone https://github.com/AjaySoni-Dev/AI-DS-100.git
-cd AI-DS-100
+pip install numpy pandas matplotlib scikit-learn jupyter openpyxl
 ```
 
-### 2. Create a virtual environment
-
-Windows PowerShell:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\activate
-```
-
-macOS/Linux:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 3. Install common dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Open a project
-
-```bash
-cd projects/001-project-name
-```
-
-Then follow the project-specific `README.md`.
+5. Run the notebook from top to bottom.
+6. Compare your output with the included PDF/export.
+7. Modify the notebook by adding better EDA, extra metrics, different models, or improved documentation.
 
 ---
 
-## Suggested Common Dependencies
+## Best Use Cases
 
-```text
-numpy
-pandas
-matplotlib
-scikit-learn
-jupyter
-notebook
-opencv-python
-pillow
-tensorflow
-streamlit
-fastapi
-uvicorn
-```
-
-Install only what a project actually needs. Do not overload every project with unnecessary dependencies.
+- Building a beginner-to-intermediate data science portfolio.
+- Practicing classification and regression workflows.
+- Learning how similar ML steps change across different datasets.
+- Preparing project explanations for resumes, GitHub, LinkedIn, or interviews.
+- Using existing notebooks as a base for improved versions with cleaner code and stronger evaluation.
 
 ---
 
-## Documentation Rule
+## Notes
 
-Every project should answer these questions:
-
-```text
-What problem is solved?
-What data is used?
-What method is used?
-What result was achieved?
-What are the limitations?
-How can someone run it?
-```
-
-If a project cannot answer these, it is not ready to be marked complete.
-
----
-
-## Current Limitations
-
-- Projects may vary in depth depending on difficulty.
-- Some datasets may be small or educational.
-- Not every project is expected to be production-grade.
-- Results should not be overclaimed beyond the actual experiment.
-- Deployment is included only where it adds value.
-
----
-
-## Author
-
-**Ajay Soni**
-
-Focus areas:
-
-- Applied Machine Learning
-- Data Science
-- Computer Vision
-- AI Applications
-- Real-World Model Deployment
+- Some projects are intentionally simple and use baseline models instead of heavy production pipelines.
+- Datasets are stored inside individual project bundles, so extract a project before running it.
+- The current release contains 26 implemented projects; more projects can be added later while keeping the same three-level structure.
 
 ---
 
 ## License
 
-This project is licensed under the MIT License.
+Released under the MIT License.
