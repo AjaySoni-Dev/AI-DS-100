@@ -30,7 +30,7 @@
 
 ## Overview
 
-**AIDSLab-100** is a structured collection of applied Artificial Intelligence, Machine Learning, and Data Science projects.
+**AI-DS-100** is a structured collection of applied Artificial Intelligence, Machine Learning, and Data Science projects.
 
 The goal is simple:
 
@@ -52,7 +52,7 @@ This repository is not meant to be a random dump of notebooks. Each project shou
 
 ## What This Repository Is
 
-AIDSLab-100 is for:
+AI-DS-100 is for:
 
 - applied AI and data science practice
 - portfolio-building projects
@@ -141,7 +141,7 @@ Status meaning:
 ## Repository Structure
 
 ```text
-AIDSLab-100/
+AI-DS-100/
 ├── projects/            # Main project folders
 ├── datasets/            # Dataset notes or small sample datasets
 ├── notebooks/           # Standalone learning notebooks if needed
@@ -170,8 +170,8 @@ Recommended project naming:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/AjaySoni-Dev/AIDSLab-100.git
-cd AIDSLab-100
+git clone https://github.com/AjaySoni-Dev/AI-DS-100.git
+cd AI-DS-100
 ```
 
 ### 2. Create a virtual environment
